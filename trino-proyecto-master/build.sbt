@@ -15,9 +15,10 @@ libraryDependencies ++= Seq(
   "org.postgresql" % "postgresql" % "9.4-1200-jdbc41",
   "be.objectify" %% "deadbolt-java" % "2.4.4"
 )
+libraryDependencies += jdbc
 
 // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.3"
+//libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.3"
 
 // https://mvnrepository.com/artifact/com.itextpdf/itextpdf
 libraryDependencies += "com.itextpdf" % "itextpdf" % "5.5.6"
