@@ -17,6 +17,8 @@ libraryDependencies ++= Seq(
 )
 libraryDependencies += jdbc
 
+libraryDependencies += evolutions
+
 // https://mvnrepository.com/artifact/mysql/mysql-connector-java
 libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.3"
 
