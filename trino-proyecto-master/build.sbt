@@ -1,4 +1,4 @@
-name := """TrinoProject"""
+name := "TrinoProject"
 
 version := "1.0-SNAPSHOT"
 
@@ -18,7 +18,7 @@ libraryDependencies ++= Seq(
 libraryDependencies += jdbc
 
 // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-//libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.3"
+libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.3"
 
 // https://mvnrepository.com/artifact/com.itextpdf/itextpdf
 libraryDependencies += "com.itextpdf" % "itextpdf" % "5.5.6"
