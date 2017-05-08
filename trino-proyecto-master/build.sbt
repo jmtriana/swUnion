@@ -7,7 +7,7 @@ lazy val myProject = (project in file("."))
   .enablePlugins(PlayJava, PlayEbean, LauncherJarPlugin)
 
 scalaVersion := "2.11.7"
-mainClass in Compile := Some("JettyLauncher")
+mainClass in Compile := Some("HomeController")
 
 libraryDependencies ++= Seq(
   javaJdbc,
